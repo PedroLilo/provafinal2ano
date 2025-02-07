@@ -1,0 +1,16 @@
+POST https://apiflask-8cgv.onrender.com/animal HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "peixes",
+    "especie": "Tubarão",
+    "idade": 16
+}
+
+
+
+GET https://apiflask-8cgv.onrender.com/animal HTTP/1.1
+Content-Type: application/json
+
+DELETE https://apiflask-8cgv.onrender.com/animal HTTP/1.1
+Content-Type: application/json
